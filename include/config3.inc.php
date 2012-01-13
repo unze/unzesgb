@@ -1,0 +1,15 @@
+<?php
+$aalink="Ja";
+$htmlc="Aus";
+$gbc="An";
+$flooding="An";
+$floodtime="30";
+$words="arsch,wixer,vixer,fixer,hurensohn,nuttensohn,arschkind";
+$replaceword="*piep*";
+$komlength="1500";
+$namelength="30";
+$maillength="30";
+$urllength="30";
+$icqlength="10";
+$wordlength="50";
+?>

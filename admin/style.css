@@ -1,0 +1,7 @@
+body, table, td, th, tr, div, p, br, a { scrollbar-base-color: #46A0E3; color: #124399; font-family: Tahoma; font-size: 10pt; }
+A, A:link { text-decoration: underline; color: #124399; }
+A:visited { text-decoration: underline; color: #124399; }
+A:active { text-decoration: underline; color: #124399; }
+A:hover { text-decoration: none; color: #124399; }
+input, select, textarea { background-color: #D6DFF7; color: #215DC6; font-size: 11px; font-family: Tahoma; }
+.check { background-color: #FFFFFF; height: 16px; width: 16px; }
