@@ -27,7 +27,7 @@ function even($var){
 
 function datum(){
 global $offset, $zeitzone;
-$MONTH=array ("blank","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"); // Namen der Monate
+$MONTH=array ("blank","Januar","Februar","MÃ¤rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"); // Namen der Monate
 $MON=date("n"); // Monat
 $zeit= date("H")+$offset; // Stunde minus Offset
 $datum=date("d").". ".$MONTH[$MON]." ".date("Y"); // Datum insgesamt
@@ -73,7 +73,7 @@ print '<select size="1">
 <input type="button" title="'.$dq.'" value=" U " onclick="sel.replaceSelection(\'[u]\', \'[/u]\');">
 <input type="button" title="Hyperlink" value="www" onclick="sel.replaceSelection(\'[url=http://]\', \'[/url]\');">
 <input type="button" title="E-Mail Adresse" value=" @ " onclick="sel.replaceSelection(\'[email=@]\', \'[/email]\');">
-<input type="button" title="Bild einfügen" value="IMG" onclick="sel.replaceSelection(\'[img]\', \'[/img]\');">
+<input type="button" title="Bild einfÃ¼gen" value="IMG" onclick="sel.replaceSelection(\'[img]\', \'[/img]\');">
 <br><img src="images/leer.gif" heigth="2" width="2"><br>
 <select size="1">
 <option selected>COLOR</option>
@@ -135,7 +135,7 @@ $a0001 = "**************************************************";
 $a0002 = "***";
 $a0003 = "http://www.unze.net/";
 $a0004 = "created by unzes gb ";
-$a0005 = "Copyright (c) 2001 - 2009 by Daniel Köhler";
+$a0005 = "Copyright (c) 2001 - 2009 by Daniel KÃ¶hler";
 $a0006 = "<!--";
 $a0007 = "//-->";
 
@@ -193,7 +193,7 @@ print '<select size="1">
 <input type="button" title="'.$dq.'" value=" U " onclick="sel.replaceSelection(\'[u]\', \'[/u]\');">
 <input type="button" title="Hyperlink" value="www" onclick="sel.replaceSelection(\'[url=http://]\', \'[/url]\');">
 <input type="button" title="E-Mail Adresse" value=" @ " onclick="sel.replaceSelection(\'[email=@]\', \'[/email]\');">
-<input type="button" title="Bild einfügen" value="IMG" onclick="sel.replaceSelection(\'[img]\', \'[/img]\');">';
+<input type="button" title="Bild einfÃ¼gen" value="IMG" onclick="sel.replaceSelection(\'[img]\', \'[/img]\');">';
 }
 
 function smilies(){
@@ -226,7 +226,7 @@ $cpy = str_replace("[h]", "powered by ", $cpy);
 $cpy = str_replace("[i]", "<a href='http://www.unze.net/' target='_blank'>", $cpy);
 $cpy = str_replace("[j]", "<font size='1'>", $cpy);
 $cpy = str_replace("[k]", "unzes gb", $cpy);
-$cpy = str_replace("[l]", "&copy; 2001 - 2009 by Daniel Köhler", $cpy);
+$cpy = str_replace("[l]", "&copy; 2001 - 2009 by Daniel KÃ¶hler", $cpy);
 }
 
 function parsekommentar(){

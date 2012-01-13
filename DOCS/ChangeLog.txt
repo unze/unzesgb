@@ -1,28 +1,31 @@
+3.2.0 build 11
+        +
+
 3.2.0 build 10
 	+ Bugfix: E-Mail Versand unter Windows und Linux verbessert
 	+ Bugfix: Spam Erkennungswahrscheinlichkeit der E-Mails verringert
 
 3.2.0
-	+ Gästebuch: Anti Spam Filter, danke an exxamalte
-	+ Bugfix: Unterstützung für Server mit "register_globals = off"
+	+ GÃ¤stebuch: Anti Spam Filter, danke an exxamalte
+	+ Bugfix: UnterstÃ¼tzung fÃ¼r Server mit "register_globals = off"
 	+ Bugfix: Fehler in der Textzeichendarstellung (Vorschau)
-	+ Bugfix: Smilies und GB-Code lassen sich wieder per Klick einfügen
+	+ Bugfix: Smilies und GB-Code lassen sich wieder per Klick einfÃ¼gen
 
 3.1.1
 	+ Administration: Hintergrundbild kann als 'fixed' markiert werden
 	+ Bugfix: Admin Login funktioniert nicht
-	+ Bugfix: Vorschau-Weiterleitungstext geändert
+	+ Bugfix: Vorschau-Weiterleitungstext geÃ¤ndert
 	+ Bugfix: Sehr viele kleine Bugs
 
 3.1.0
-	+ Gästebuch: Anzeige vom Ersten- und Letzten-Seitenlink
-	+ Gästebuch: Anzahl von Seitenlinks beschränkt
-	+ Gästebuch: Neugestaltung der Eintragen-Seite
-	+ Gästebuch: Schutz der eintraege.dat
+	+ GÃ¤stebuch: Anzeige vom Ersten- und Letzten-Seitenlink
+	+ GÃ¤stebuch: Anzahl von Seitenlinks beschrÃ¤nkt
+	+ GÃ¤stebuch: Neugestaltung der Eintragen-Seite
+	+ GÃ¤stebuch: Schutz der eintraege.dat
 	+ Administration: Designverbesserung
 	+ Administration: Verbesserte Hilfe
 	+ Administration: Farbvorschau
-	+ Administration: Einträge neu nummerieren
+	+ Administration: EintrÃ¤ge neu nummerieren
 	+ Bugfix: Fehler im Floodschutz
 	+ Bugfix: Fehler in der Bildanzeige
 
@@ -43,35 +46,35 @@
 
 3.0.0
 	+ Komplett neue Admin
-	+ Smilies können online verwaltet werden
-	+ Mail-Templates können online editiert werden
-	+ Zeichenlängen beim Eintragen können eingestellt werden
-	+ Viele kleine Änderungen
+	+ Smilies kÃ¶nnen online verwaltet werden
+	+ Mail-Templates kÃ¶nnen online editiert werden
+	+ ZeichenlÃ¤ngen beim Eintragen kÃ¶nnen eingestellt werden
+	+ Viele kleine Ã„nderungen
 	+ Viele Bugfixes
-	+ Mehr CSS Möglichkeiten
-	+ E-Mail, Homepage und ICQ-Nummer werden auf Gültigkeit geprüft
+	+ Mehr CSS MÃ¶glichkeiten
+	+ E-Mail, Homepage und ICQ-Nummer werden auf GÃ¼ltigkeit geprÃ¼ft
 	+ Alle admin.php und gb.php Strings durch $PHP_SELF ersetzt
-	+ Farbtabelle für bessere Designanpassungen an die Homepage
+	+ Farbtabelle fÃ¼r bessere Designanpassungen an die Homepage
 	+ Erweiterte GB-Code Eingabe beim Eintragen
 	+ Vorschau-Funktion
 	+ Die meisten E_ALL Errors beseitigt
 	+ Es werden nur noch HTML-Mails versendet
-	+ Passwörter und Benutzernamen werden beim Übertragen verschlüsselt
-	+ Gästebuch kann in den online / offline Modus geschaltet werden
+	+ PasswÃ¶rter und Benutzernamen werden beim Ãœbertragen verschlÃ¼sselt
+	+ GÃ¤stebuch kann in den online / offline Modus geschaltet werden
 
 2.03
 	+ Smiliebugs behoben
 	+ Bugfixes
 
 2.02
-	+ Größe der CSS Schrit wird in points (pt) angegeben
+	+ GrÃ¶ÃŸe der CSS Schrit wird in points (pt) angegeben
 	+ Bugfixes
-	+ GB-Code- und Smilieseite wird mit JavaScript geöffnet
-	+ Code-Optimierungen (Dateigröße verringert sich dadurch)
-	+ Gästebuchtitel kann als Bild angezeigt werden
+	+ GB-Code- und Smilieseite wird mit JavaScript geÃ¶ffnet
+	+ Code-Optimierungen (DateigrÃ¶ÃŸe verringert sich dadurch)
+	+ GÃ¤stebuchtitel kann als Bild angezeigt werden
 	+ Beim Kommentar kann der Name des Schreibers angegeben werden
 	+ Einige kleinere Verbesserungen zu Gunsten der Benutzerfreundlichkeit
-	+ Gästebuch wird mit Voreingestelltem Style ausgeliefert
+	+ GÃ¤stebuch wird mit Voreingestelltem Style ausgeliefert
 	+ Ziemlich viele kleinere Dinge verbessert
 	+ Badword-Liste
 
@@ -80,25 +83,25 @@
 	+ Formfelder werden mit CSS dargestellt
 
 2.00
-	+ Sicherheitslücken beseitigt
-	+ Datenkompression hinzugefügt (schneller)
+	+ SicherheitslÃ¼cken beseitigt
+	+ Datenkompression hinzugefÃ¼gt (schneller)
 	+ Kompatibler mit Netscape, Mozilla und Opera
 	+ Bugbeseitigung
 	+ Flood-Sperre eingebaut (An/Abschaltbar, Zeit einstellbar)
-	+ Admin kann seinen Flood-Cookie löschen
+	+ Admin kann seinen Flood-Cookie lÃ¶schen
 	+ Smilie- und GB-Code-Seite kann man mehr anpassen
 	+ Weiterleitungsseite kann angepasst werden
-	+ Es wird angezeigt "Zeige Einträge x bis x von x"
-	+ Es können Includes verwendet werden (oben und unten vom gb)
-	+ Mehr GB-Codes hinzugefügt (Schriftarten und Schriftgrößen)
+	+ Es wird angezeigt "Zeige EintrÃ¤ge x bis x von x"
+	+ Es kÃ¶nnen Includes verwendet werden (oben und unten vom gb)
+	+ Mehr GB-Codes hinzugefÃ¼gt (Schriftarten und SchriftgrÃ¶ÃŸen)
 	+ Grafische GB- und HTML-Code An/Aus-Anzeige
 	+ Farbe des Textes "Kommentar:" kann selbst eingestellt werden
 	+ Verbessert Authentifizierung: Name und Passwort
-	+ IP-Anzeige nur mit Name und Passwort möglich
+	+ IP-Anzeige nur mit Name und Passwort mÃ¶glich
 
 1.10
 	+ Erstes stabiles Release
 
 1.00
 	+ Komischerweise gibt es keine 1.00,
-	+ Ich hab sie wohl ausversehen übersprungen
+	+ Ich hab sie wohl ausversehen Ã¼bersprungen

@@ -1,4 +1,4 @@
 <?php
 $online="1";
-$offlinetext="Das Gästebuch ist wegen Wartungsarbeiten vorübergehend offline!";
+$offlinetext="Das GÃ¤stebuch ist wegen Wartungsarbeiten vorÃ¼bergehend offline!";
 ?>

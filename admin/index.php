@@ -21,7 +21,7 @@ echo '<html>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>';
 if($logged == "2"){ print '<font color="red"><center>Erfolgreich ausgeloggt!</center></font>'; }
-if($logged == "1"){ print '<font color="red"><center>Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groﬂ- und Kleinschriebung!</center></font>'; }
+if($logged == "1"){ print '<font color="red"><center>Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Gro√ü- und Kleinschriebung!</center></font>'; }
 print '<form method="POST" action="admin.php?action=frame">
 <div align="center">
   <center>
@@ -38,7 +38,7 @@ print '<form method="POST" action="admin.php?action=frame">
          <td bgcolor="#FFFFFF"><input type="password" name="pwd" size="25"></td>
        </tr>
        <tr>
-         <td bgcolor="#FFFFFF"><input type="reset" value="lˆschen" name="lˆschen"></td>
+         <td bgcolor="#FFFFFF"><input type="reset" value="l√∂schen" name="l√∂schen"></td>
          <td bgcolor="#FFFFFF"><input type="submit" value=" weiter " name=" weiter "></td>
        </tr>
     </table>

@@ -34,7 +34,7 @@ if(!isset($picnam)){ $picnam = ""; }
 if(!isset($schreibrechte)){ $schreibrechte = ""; }
 
 $pathschreib = "../include/";
-$dir_handle1337 = @opendir($pathschreib) or die("Konnte include Verzeichnis nicht öffnen");
+$dir_handle1337 = @opendir($pathschreib) or die("Konnte include Verzeichnis nicht Ã¶ffnen");
 while ($file1337 = readdir($dir_handle1337)){
 if ($file1337 == ".." ||  $file1337 == ".htaccess"){
 continue;

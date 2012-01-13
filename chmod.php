@@ -3,7 +3,7 @@
 // Name: chmod.php
 
 /*
-Chmod-Script für unzes gb ab 3.1.0
+Chmod-Script fÃ¼r unzes gb ab 3.1.0
 by Manuel Schiller
 modified by unze
 */
@@ -37,7 +37,7 @@ $prozess_Inc[14] = "eintraege.dat";
 //////////////////////////
 //Sonstiges / Funktionen
 //////////////////////////
-$vers = "v1.2.0"; // Nicht ändern!
+$vers = "v1.2.0"; // Nicht Ã¤ndern!
 $chmod = "0777";
 $prozesse = count($prozess_Inc)+count($prozess_Bas);
 
@@ -86,7 +86,7 @@ if($bsystem[0] != "Windows"){
                           echo "<td bgcolor=\"#FFFFFF\" width=\"500\">CHMOD $chmod von Datei: $prozess_Bas[$i]</td><td bgcolor=\"#FFFFFF\" width=\"80\"><center><font size=\"2\" face=\"Tahoma\">";
                     if(chmod("$prozess_Bas[$i]", "$chmod")
                       or die("Fehler")){
-                            echo "Ausgeführt";
+                            echo "AusgefÃ¼hrt";
                     }else{
                             echo "Fehler";
                     }
@@ -97,7 +97,7 @@ if($bsystem[0] != "Windows"){
                           echo "<td bgcolor=\"#FFFFFF\" width=\"500\">CHMOD $chmod von Datei: include/$prozess_Inc[$i]</td><td bgcolor=\"#FFFFFF\" width=\"80\"><center><font size=\"2\" face=\"Tahoma\">";
                     if(chmod("include/$prozess_Inc[$i]", "$chmod")
                       or die("Fehler")){
-                            echo "Ausgeführt";
+                            echo "AusgefÃ¼hrt";
                     }else{
                             echo "Fehler";
                     }
@@ -105,7 +105,7 @@ if($bsystem[0] != "Windows"){
                   }
          print '</table>';
          }
-         if(!function_exists("chmod")){ print '<br>Ihr System unterstützt kein PHP-Chmod!<br>Script gestoppt!<br><br>'; }
+         if(!function_exists("chmod")){ print '<br>Ihr System unterstÃ¼tzt kein PHP-Chmod!<br>Script gestoppt!<br><br>'; }
 }
 if($bsystem[0] == "Windows"){ print '<br>Unter Windows hat dieses Script keinen Effekt!<br>Script gestoppt!<br><br>'; }
         print'<br></center>
@@ -113,8 +113,8 @@ if($bsystem[0] == "Windows"){ print '<br>Unter Windows hat dieses Script keinen 
     </tr>
   </table>
   <font size="1"><br><br>
-  Chmod-Script '.$vers.' für unzes gb '.$version.'<br>
-  &copy; by Manuel Schiller und Daniel Köhler<br><br></font>
+  Chmod-Script '.$vers.' fÃ¼r unzes gb '.$version.'<br>
+  &copy; by Manuel Schiller und Daniel KÃ¶hler<br><br></font>
   </center>
 </body>
 

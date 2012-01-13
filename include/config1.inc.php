@@ -1,10 +1,10 @@
 <?php
-$titel="unze.net Demo-Gästebuch";
+$titel="unze.net Demo-GÃ¤stebuch";
 $picurl="images/ugblogo.gif";
 $gbttyp="2";
 $offset="0";
 $zeitzone="MEZ";
-$begruesungstxt="Herzlich willkommen in unserem Gästebuch!";
+$begruesungstxt="Herzlich willkommen in unserem GÃ¤stebuch!";
 $benachr="An";
 $danke="An";
 $email="unze@unze.net";

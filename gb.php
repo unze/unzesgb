@@ -4,16 +4,16 @@
 
 ///////////////////////////////////////////////////////////
 // Dieses Script wurde programmiert von
-// Daniel Köhler und F-Zero
+// Daniel KÃ¶hler und F-Zero
 ///////////////////////////////////////////////////////////
-// Alle Scripte dürfen privat
+// Alle Scripte dÃ¼rfen privat
 // frei eingesetzt werden
 ///////////////////////////////////////////////////////////
 // Noch mehr Scripte:
 // http://www.unze.net/
 ///////////////////////////////////////////////////////////
 // Copyright (c) 2001-2009 by
-// Daniel Köhler
+// Daniel KÃ¶hler
 ///////////////////////////////////////////////////////////
 
 include "./include/config1.inc.php";
@@ -117,8 +117,8 @@ print '</p>
 <div align="center">
   <center>
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="'.$tbreite.'" bgcolor="'.$fabtabrand.'">';
-if($insgesamt != "0"){ print '      <tr><td colspan="2" bgcolor="'.$zmweiter.'"><center><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'">Zeige Einträge <b>'.$firstots.'</b> bis <b>'.$lastots.'</b> von <b>'.$insgesamt.'</b></font></center></td></tr>'; }
-if($insgesamt == "0"){ print '      <tr><td colspan="2" bgcolor="'.$zmweiter.'"><center><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'">Keine Einträge vorhanden</font></center></td></tr>'; }
+if($insgesamt != "0"){ print '      <tr><td colspan="2" bgcolor="'.$zmweiter.'"><center><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'">Zeige EintrÃ¤ge <b>'.$firstots.'</b> bis <b>'.$lastots.'</b> von <b>'.$insgesamt.'</b></font></center></td></tr>'; }
+if($insgesamt == "0"){ print '      <tr><td colspan="2" bgcolor="'.$zmweiter.'"><center><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'">Keine EintrÃ¤ge vorhanden</font></center></td></tr>'; }
 if($seiten != ""){ print '      <tr><td colspan="2" bgcolor="'.$zmweiter.'"><p align="left">'.$seiten.'</td></tr>'; }
 print '    <tr>
       <td width="'.$breitesmn.'" bgcolor="'.$zmuber.'"><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'"><b>Name</b></font></td>
@@ -127,7 +127,7 @@ print '    <tr>
 if($insgesamt == "0"){
 print '
       <tr>
-      <td bgcolor="'.$zmeintragl.'" valign="top" colspan="2" align="center" width="'.$tbreite.'"><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'"><br><br><b>+ + Noch keine Einträge vorhanden + +</b><br><br><br></font>
+      <td bgcolor="'.$zmeintragl.'" valign="top" colspan="2" align="center" width="'.$tbreite.'"><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'"><br><br><b>+ + Noch keine EintrÃ¤ge vorhanden + +</b><br><br><br></font>
       </td></tr>';
 }
 $file = fopen("./include/eintraege.dat","r");
@@ -162,7 +162,7 @@ if($insgesamt != "0"){
 print '
     <tr>
       <td width="'.$breitesmn.'" bgcolor="'.$eintrybgcol.'" valign="top"><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'"><b>'.$name.'</b></font><br>'.$mail.' '.$url.' '.$icq.' <a href="'.$PHP_SELF.'?action=viewip&name='.$name.'&eid='.$nummer.'"><img src="images/ip.gif" border="0" alt="'.$name.'s IP angucken"></a><br><br><br></td>
-      <td valign="top" bgcolor="'.$eintrybgcol.'"><font color="'.$textin.'" size="1" face="'.$sart.'">'.$datum.'&nbsp;&nbsp;&nbsp;<a href="'.$PHP_SELF.'?action=delete&eid='.$nummer.'"><img src="images/delete.gif" border="0" alt="Eintrag löschen"></a>&nbsp;&nbsp;<a href="'.$PHP_SELF.'?action=comment&eid='.$nummer.'"><img src="images/reply.gif" border="0" alt="Kommentar hinzufügen"></a>&nbsp;&nbsp;<a href="'.$PHP_SELF.'?action=edit&eid='.$nummer.'"><img src="images/edit.gif" border="0" alt="Eintrag bearbeiten"></a></font><hr width="97%" size="1" color="'.$fabtabrand.'" style="color:'.$fabtabrand.'; height:1px; border:0px solid;" noshade><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'">'.$kommentar.'<br></font></td>
+      <td valign="top" bgcolor="'.$eintrybgcol.'"><font color="'.$textin.'" size="1" face="'.$sart.'">'.$datum.'&nbsp;&nbsp;&nbsp;<a href="'.$PHP_SELF.'?action=delete&eid='.$nummer.'"><img src="images/delete.gif" border="0" alt="Eintrag lÃ¶schen"></a>&nbsp;&nbsp;<a href="'.$PHP_SELF.'?action=comment&eid='.$nummer.'"><img src="images/reply.gif" border="0" alt="Kommentar hinzufÃ¼gen"></a>&nbsp;&nbsp;<a href="'.$PHP_SELF.'?action=edit&eid='.$nummer.'"><img src="images/edit.gif" border="0" alt="Eintrag bearbeiten"></a></font><hr width="97%" size="1" color="'.$fabtabrand.'" style="color:'.$fabtabrand.'; height:1px; border:0px solid;" noshade><font color="'.$textin.'" size="'.$grosetext.'" face="'.$sart.'">'.$kommentar.'<br></font></td>
     </tr>';
 flush();
 }
@@ -320,7 +320,7 @@ print '</td>
       <td align="left" valign="top" width="80%"><font color="'.$textin.'" face="'.$sart.'" size="1"><a href="javascript:gbcodes()"><font color="'.$textin.'" face="'.$sart.'" size="1">GB-Code</font></a>: '.$gbc.'<br>HTML-Code: '.$htmlc.'<br><font color="'.$textin.'"><a href="javascript:smilies()"><font color="'.$textin.'" face="'.$sart.'" size="1">Mehr Smilies</a></font></font></font></td>
     </tr>
     <tr>
-      <td align="left" valign="bottom" colspan="2" width="10%"><font color="'.$textin.'" face="'.$sart.'" size="1">Noch</font><input name=remLen readonly type="text" size="'.strlen($komlength).'" value="'.$komlength.'" style="color: '.$textin.'; background: '.$zmeintrag.'; font-family: '.$sart.'; font-size: 10px; border-style: solid; text-align: center; border-color: '.$zmeintrag.'; border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 1px;"><font color="'.$textin.'" face="'.$sart.'" size="1">von '.$komlength.' Zeichen übrig</font></td>
+      <td align="left" valign="bottom" colspan="2" width="10%"><font color="'.$textin.'" face="'.$sart.'" size="1">Noch</font><input name=remLen readonly type="text" size="'.strlen($komlength).'" value="'.$komlength.'" style="color: '.$textin.'; background: '.$zmeintrag.'; font-family: '.$sart.'; font-size: 10px; border-style: solid; text-align: center; border-color: '.$zmeintrag.'; border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 1px;"><font color="'.$textin.'" face="'.$sart.'" size="1">von '.$komlength.' Zeichen Ã¼brig</font></td>
     </tr>
   </table>
   </center>
@@ -333,10 +333,10 @@ print '</td>
       </tr>
       <tr> 
         <td bgcolor="'.$zmeintrag.'" width="100"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Hinweis</font></td>
-        <td bgcolor="'.$zmeintrag.'" width="500"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Alle Felder, die mit * gekennzeichnet sind, müssen ausgefüllt werden.</font></td>
+        <td bgcolor="'.$zmeintrag.'" width="500"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Alle Felder, die mit * gekennzeichnet sind, mÃ¼ssen ausgefÃ¼llt werden.</font></td>
       </tr>
       <tr>
-        <td bgcolor="'.$zmeintrag.'" colspan="2" align="center"><input type="submit" name="submit" value="Eintragen">&nbsp;<input type="submit" name="submit" value="Vorschau">&nbsp;<input type="reset" value="Löschen"></td>
+        <td bgcolor="'.$zmeintrag.'" colspan="2" align="center"><input type="submit" name="submit" value="Eintragen">&nbsp;<input type="submit" name="submit" value="Vorschau">&nbsp;<input type="reset" value="LÃ¶schen"></td>
       </tr>
     </table>
     </center>
@@ -367,7 +367,7 @@ print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Flood-Sperre</font></p>
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">&nbsp;</font></p>
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Die Flood-Sperre ist eingeschaltet, man kann sich erst nach '.$floodtime.' Minuten wieder eintragen.</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'"><a href="'.$PHP_SELF.'">Hier</a> gelangen Sie zurück zum Gästebuch</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'"><a href="'.$PHP_SELF.'">Hier</a> gelangen Sie zurÃ¼ck zum GÃ¤stebuch</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -479,7 +479,7 @@ include "./include/oben.inc.php";
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" size="'.$groseuber.'" face="'.$sart.'">Fehler</font>
 <p align="center">&nbsp;</p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Folgende Fehler können aufgetreten sein:<br>Sie haben nicht alle Felder, die mit * gekennzeichnet sind ausgefüllt<br>Ihre E-Mail Adresse ist nicht korrekt<br>Ihre Homepage Adresse ist nicht korrekt<br>Ihre ICQ Nummer ist nicht korrekt<br><br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.<br></font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Folgende Fehler kÃ¶nnen aufgetreten sein:<br>Sie haben nicht alle Felder, die mit * gekennzeichnet sind ausgefÃ¼llt<br>Ihre E-Mail Adresse ist nicht korrekt<br>Ihre Homepage Adresse ist nicht korrekt<br>Ihre ICQ Nummer ist nicht korrekt<br><br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.<br></font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -507,9 +507,9 @@ print '<head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$tex.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <FONT color="'.$textout.'" SIZE="'.$grosetext.'" FACE="'.$sart.'">
-<B>Danke für Ihren Eintrag! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
+<B>Danke fÃ¼r Ihren Eintrag! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
 <FONT color="'.$textout.'" SIZE="1" FACE="'.$sart.'">
-<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</A>
+<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</A>
 </B><br><br>
 </FONT>
 </body>';
@@ -541,7 +541,7 @@ $benachm = str_replace("<br>", " \n", $benachm);
 
 if($benachr == "An"){
 
-$mailbetreff = "Neuer Gästebucheintrag";
+$mailbetreff = "Neuer GÃ¤stebucheintrag";
 $mailbetreff = mb_encode_mimeheader($mailbetreff,"ISO-8859-15", "B", "\n");
 
 $mailheader1  = ("From: " . $mail . "\n");
@@ -563,7 +563,7 @@ mail($email, $mailbetreff, $benachm, $mailheader1, "-f $mail");
 
 if($danke == "An"){
 
-$mailbetreff = "Danke für Ihren Eintrag";
+$mailbetreff = "Danke fÃ¼r Ihren Eintrag";
 $mailbetreff = mb_encode_mimeheader($mailbetreff,"ISO-8859-15", "B", "\n");
 
 $mailheader1  = ("From: " . $email . "\n");
@@ -629,7 +629,7 @@ include "./include/oben.inc.php";
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" size="'.$groseuber.'" face="'.$sart.'">Fehler</font>
 <p align="center">&nbsp;</p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">'.$jv.'<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.<br></font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">'.$jv.'<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.<br></font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -651,9 +651,9 @@ print '<head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$tex.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <FONT color="'.$textout.'" SIZE="'.$grosetext.'" FACE="'.$sart.'">
-<B>Danke für Ihre Eingaben! Wir leiten Sie jetzt zur Vorschau weiter, bitte warten Sie kurz.<P></font>
+<B>Danke fÃ¼r Ihre Eingaben! Wir leiten Sie jetzt zur Vorschau weiter, bitte warten Sie kurz.<P></font>
 <FONT color="'.$textout.'" SIZE="1" FACE="'.$sart.'">
-<A HREF="'.$PHP_SELF.'?action=eintragen&step=2&name='.$name.'&url='.$url.'&mail='.$mail.'&icq='.$icq.'&kommentar='.$kommentar.'">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</A>
+<A HREF="'.$PHP_SELF.'?action=eintragen&step=2&name='.$name.'&url='.$url.'&mail='.$mail.'&icq='.$icq.'&kommentar='.$kommentar.'">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</A>
 </B><br><br>
 </FONT>
 </body>';
@@ -673,12 +673,12 @@ window.close();
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$textout.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">S M I L I E S</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Diese Smilies können benutzt werden:</font></p>
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Diese Smilies kÃ¶nnen benutzt werden:</font></p>
 <div align="center">
   <center>
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="97%" bgcolor="'.$fabtabrand.'">
     <tr>
-      <td colspan="3" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font face="'.$sart.'" size="1">Fenster schließen</font></a></font></center></td>
+      <td colspan="3" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font face="'.$sart.'" size="1">Fenster schlieÃŸen</font></a></font></center></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmuber.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>Eingabe</b></font></td>
@@ -697,7 +697,7 @@ print '    <tr>
     </tr>';
 }
 print '    <tr>
-      <td colspan="3" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font face="'.$sart.'" size="1">Fenster schließen</font></a></font></center></td>
+      <td colspan="3" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font face="'.$sart.'" size="1">Fenster schlieÃŸen</font></a></font></center></td>
     </tr>
   </table>
   </center>
@@ -718,12 +718,12 @@ window.close();
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$textout.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">GB-Codes</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Diese GB-Codes können neben HTML benutzt werden:</font></p>
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Diese GB-Codes kÃ¶nnen neben HTML benutzt werden:</font></p>
 <div align="center">
   <center>
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="97%" bgcolor="'.$fabtabrand.'">
     <tr>
-      <td colspan="2" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font color="'.$textin.'" face="'.$sart.'" size="1">Fenster schließen</font></a></font></center></td>
+      <td colspan="2" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font color="'.$textin.'" face="'.$sart.'" size="1">Fenster schlieÃŸen</font></a></font></center></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmuber.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>Eingabe</b></font></td>
@@ -747,11 +747,11 @@ window.close();
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>[img]</b>Bildurl<b>[/img]</b></font></td>
-      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Bild wird eingefügt</font></td>
+      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Bild wird eingefÃ¼gt</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>[size=x]</b>Text<b>[/size]</b></font></td>
-      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Andere Schriftgröße (1-7)</u></font></td>
+      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Andere SchriftgrÃ¶ÃŸe (1-7)</u></font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>[font=x]</b>Text<b>[/font]</b></font></td>
@@ -767,14 +767,14 @@ window.close();
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>[url=x]</b>Websiteurl<b>[/url]</b></font></td>
-      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Hyperlink wird eingefügt</font></td>
+      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Hyperlink wird eingefÃ¼gt</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><b>[email=x]</b>E-Mail<b>[/email]</b></font></td>
-      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">E-Mail Adresse wird eingefügt</font></td>
+      <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">E-Mail Adresse wird eingefÃ¼gt</font></td>
     </tr>
     <tr>
-      <td colspan="2" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font color="'.$textin.'" face="'.$sart.'" size="1">Fenster schließen</font></a></font></center></td>
+      <td colspan="2" bgcolor="'.$zmeintrag.'"><center><font color="'.$textin.'"><a href="javascript:close()"><font color="'.$textin.'" face="'.$sart.'" size="1">Fenster schlieÃŸen</font></a></font></center></td>
     </tr>
   </table>
   </center>
@@ -784,7 +784,7 @@ print '</body>';
 }
 if($action == "delete"){
 print '<head>
-<title>Eintrag löschen</title>';
+<title>Eintrag lÃ¶schen</title>';
 echo "\n$head\n$css\n";
 print '</head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$textout.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">';
@@ -793,7 +793,7 @@ echo "\n";
 include "./include/oben.inc.php";
 }
 print ''.$body.'
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Eintrag löschen</font></p>
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Eintrag lÃ¶schen</font></p>
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">&nbsp;</font></p>
 <form method="POST" action="'.$PHP_SELF.'?action=del">
 <input type="hidden" name="eid" value="'.$eid.'">
@@ -802,7 +802,7 @@ print ''.$body.'
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="550" bgcolor="'.$fabtabrand.'">
     <tr>
       <td bgcolor="'.$zmuber.'" colspan="2">
-        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Achtung! Nach dem Bestätigen wird der Eintrag '.$eid.' gelöscht!</font></td>
+        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Achtung! Nach dem BestÃ¤tigen wird der Eintrag '.$eid.' gelÃ¶scht!</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Benutzername</font></td>
@@ -817,8 +817,8 @@ print ''.$body.'
       </td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="löschen"></td>
-      <td bgcolor="'.$zmeintrag.'"><input type="submit" value="löschen"></td>
+      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="lÃ¶schen"></td>
+      <td bgcolor="'.$zmeintrag.'"><input type="submit" value="lÃ¶schen"></td>
     </tr>
   </table>
   </center>
@@ -854,9 +854,9 @@ print '<head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$tex.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <FONT color="'.$textout.'" SIZE="'.$grosetext.'" FACE="'.$sart.'">
-<B>Eintrag '.$eid.' erfolgreich gelöscht! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
+<B>Eintrag '.$eid.' erfolgreich gelÃ¶scht! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
 <FONT color="'.$textout.'" SIZE="1" FACE="'.$sart.'">
-<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</A>
+<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</A>
 </B><br><br>
 </FONT>
 </body>';
@@ -890,7 +890,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groß- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf GroÃŸ- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -902,7 +902,7 @@ print '</body>';
 }
 if($action == "comment"){
 print '<head>
-<title>Kommentar hinzufügen</title>';
+<title>Kommentar hinzufÃ¼gen</title>';
 echo "\n$head\n$css\n";
 print '</head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$textout.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">';
@@ -911,7 +911,7 @@ echo "\n";
 include "./include/oben.inc.php";
 }
 print ''.$body.'
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Kommentar hinzufügen</font></p>
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Kommentar hinzufÃ¼gen</font></p>
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">&nbsp;</font></p>
 <form method="POST" action="'.$PHP_SELF.'?action=commentlogin">
 <input type="hidden" name="eid" value="'.$eid.'">
@@ -920,7 +920,7 @@ print ''.$body.'
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="550" bgcolor="'.$fabtabrand.'">
     <tr>
       <td bgcolor="'.$zmuber.'" colspan="2">
-        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Um den Eintrag mit der Nummer '.$eid.' ein Kommentar anzuhängen, müssen Sie sich einloggen!</font></td>
+        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Um den Eintrag mit der Nummer '.$eid.' ein Kommentar anzuhÃ¤ngen, mÃ¼ssen Sie sich einloggen!</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Benutzername</font></td>
@@ -935,7 +935,7 @@ print ''.$body.'
       </td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="löschen"></td>
+      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="lÃ¶schen"></td>
       <td bgcolor="'.$zmeintrag.'"><input type="submit" value="einloggen"></td>
     </tr>
   </table>
@@ -966,7 +966,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groß- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf GroÃŸ- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -980,7 +980,7 @@ $md5nemo = md5("$loginname");
 if($md5pwd == "$pass" && $md5nemo == "$username"){
 print '<head>
 <script language="JavaScript" src="insert.js"></script>
-<title>Kommentar hinzufügen</title>';
+<title>Kommentar hinzufÃ¼gen</title>';
 echo "\n$head\n$css\n";
 print '</head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$textout.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">';
@@ -989,7 +989,7 @@ echo "\n";
 include "./include/oben.inc.php";
 }
 print ''.$body.'
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Kommentar hinzufügen</font></p>
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Kommentar hinzufÃ¼gen</font></p>
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">&nbsp;</font></p>
 <form method="POST" action="'.$PHP_SELF.'?action=addcom" name="eintragen">
 <input type="hidden" name="eid" value="'.$eid.'">
@@ -1000,7 +1000,7 @@ print ''.$body.'
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="550" bgcolor="'.$fabtabrand.'">
     <tr>
       <td bgcolor="'.$zmuber.'" colspan="2">
-        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Achtung! Nach dem Bestätigen wird dem Eintrag '.$eid.' ein Kommentar angehängt!</font></td>
+        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Achtung! Nach dem BestÃ¤tigen wird dem Eintrag '.$eid.' ein Kommentar angehÃ¤ngt!</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'" width="125"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Angezeigter Name</font></td>
@@ -1022,8 +1022,8 @@ print '      <br><textarea name="kommentar" cols="70" rows="10" onfocus="sel.set
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><input type="checkbox" value="yes" name="kurs" class="nix"></font></td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'" width="125"><input type="reset" value="löschen"></td>
-      <td bgcolor="'.$zmeintrag.'"><input type="submit" value="hinzufügen"></td>
+      <td bgcolor="'.$zmeintrag.'" width="125"><input type="reset" value="lÃ¶schen"></td>
+      <td bgcolor="'.$zmeintrag.'"><input type="submit" value="hinzufÃ¼gen"></td>
     </tr>
   </table>
   </center>
@@ -1055,7 +1055,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Das Kommentarfeld oder der angezeigte Name ist leer.<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Das Kommentarfeld oder der angezeigte Name ist leer.<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -1083,9 +1083,9 @@ print '<head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$tex.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <FONT color="'.$textout.'" SIZE="'.$grosetext.'" FACE="'.$sart.'">
-<B>Danke für Ihr Kommentar! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
+<B>Danke fÃ¼r Ihr Kommentar! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
 <FONT color="'.$textout.'" SIZE="1" FACE="'.$sart.'">
-<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</A>
+<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</A>
 </B><br><br>
 </FONT>
 </body>';
@@ -1129,7 +1129,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groß- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf GroÃŸ- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -1159,7 +1159,7 @@ print ''.$body.'
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="550" bgcolor="'.$fabtabrand.'">
     <tr>
       <td bgcolor="'.$zmuber.'" colspan="2">
-        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Um den Eintrag mit der Nummer '.$eid.' zu bearbeiten, müssen Sie sich einloggen!</font></td>
+        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Um den Eintrag mit der Nummer '.$eid.' zu bearbeiten, mÃ¼ssen Sie sich einloggen!</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Benutzername</font></td>
@@ -1174,7 +1174,7 @@ print ''.$body.'
       </td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="löschen"></td>
+      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="lÃ¶schen"></td>
       <td bgcolor="'.$zmeintrag.'"><input type="submit" value="einloggen"></td>
     </tr>
   </table>
@@ -1205,7 +1205,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groß- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf GroÃŸ- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -1257,7 +1257,7 @@ print ''.$body.'
 <table border="0" cellpadding="'.$cellpadding.'" cellspacing="1" width="550" bgcolor="'.$fabtabrand.'">
     <tr>
       <td bgcolor="'.$zmuber.'" colspan="2">
-        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Bei dem Text "Kommentar" bitte das \$ davor stehen lassen!<br>Achtung! Nach dem Bestätigen erscheint der Eintrag '.$eid.' mit diesen Daten:</font></td>
+        <p align="center"><font color="'.$textin.'" face="'.$sart.'" size="1">Bei dem Text "Kommentar" bitte das \$ davor stehen lassen!<br>Achtung! Nach dem BestÃ¤tigen erscheint der Eintrag '.$eid.' mit diesen Daten:</font></td>
     </tr>
     <tr>
       <td bgcolor="'.$zmeintrag.'" width="125"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'">Name</font></td>
@@ -1293,7 +1293,7 @@ print '      <textarea name="kommentar" cols="70" rows="10" onfocus="sel.setSele
       <font color="'.$textin.'"><a href="javascript:gbcodes()"><font color="'.$textin.'" face="'.$sart.'" size="1">GB-Codes</a>&nbsp;</font></font><font color="'.$textin.'"><a href="javascript:smilies()"><font color="'.$textin.'" face="'.$sart.'" size="1">Smilies</a></font></font></td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'" width="125"><input type="reset" value="löschen"></td>
+      <td bgcolor="'.$zmeintrag.'" width="125"><input type="reset" value="lÃ¶schen"></td>
       <td bgcolor="'.$zmeintrag.'"><input type="submit" value="speichern"></td>
     </tr>
   </table>
@@ -1331,9 +1331,9 @@ print '<head>
 <body bgcolor="'.$bgcolor.'" background="'.$background.'" text="'.$tex.'" link="'.$link.'" alink="'.$alink.'" vlink="'.$vlink.'">
 '.$body.'
 <FONT color="'.$textout.'" SIZE="'.$grosetext.'" FACE="'.$sart.'">
-<B>Danke für das Bearbeiten! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
+<B>Danke fÃ¼r das Bearbeiten! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.<P></font>
 <FONT color="'.$textout.'" SIZE="1" FACE="'.$sart.'">
-<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</A>
+<A HREF="'.$PHP_SELF.'">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</A>
 </B><br><br>
 </FONT>
 </body>';
@@ -1370,7 +1370,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groß- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf GroÃŸ- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";
@@ -1412,7 +1412,7 @@ print ''.$body.'
       </td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="löschen"></td>
+      <td bgcolor="'.$zmeintrag.'"><input type="reset" value="lÃ¶schen"></td>
       <td bgcolor="'.$zmeintrag.'"><input type="submit" value="angucken"></td>
     </tr>
   </table>
@@ -1465,7 +1465,7 @@ print ''.$body.'
       <td bgcolor="'.$zmeintrag.'" colspan="2" align="center"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><br>'.$name.'s IP ist <b>'.$ip.'<br><br></font></td>
     </tr>
     <tr>
-      <td bgcolor="'.$zmeintrag.'" colspan="2" align="center"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><a href="'.$PHP_SELF.'">Hier</a> gelangen Sie zurück zum Gästebuch</font></td>
+      <td bgcolor="'.$zmeintrag.'" colspan="2" align="center"><font color="'.$textin.'" face="'.$sart.'" size="'.$grosetext.'"><a href="'.$PHP_SELF.'">Hier</a> gelangen Sie zurÃ¼ck zum GÃ¤stebuch</font></td>
     </tr>
   </table>
   </center>
@@ -1493,7 +1493,7 @@ include "./include/oben.inc.php";
 }
 print ''.$body.'
 <p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$groseuber.'">Fehler</font></p>
-<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf Groß- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</font></p>';
+<p align="center"><font color="'.$textout.'" face="'.$sart.'" size="'.$grosetext.'">Sie haben einen falschen Benutzernamen oder Passwort eingegeben,<br>achten Sie auf GroÃŸ- und Kleinschriebung!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</font></p>';
 cpyr();
 if($includev == "Ja"){
 echo "\n";

@@ -4,16 +4,16 @@
 
 ///////////////////////////////////////////////////////////
 // Dieses Script wurde programmiert von
-// Daniel Köhler und F-Zero
+// Daniel KÃ¶hler und F-Zero
 ///////////////////////////////////////////////////////////
-// Alle Scripte dürfen privat
+// Alle Scripte dÃ¼rfen privat
 // frei eingesetzt werden
 ///////////////////////////////////////////////////////////
 // Noch mehr Scripte:
 // http://www.unze.net/
 ///////////////////////////////////////////////////////////
 // Copyright (c) 2001-2006 by
-// Daniel Köhler
+// Daniel KÃ¶hler
 ///////////////////////////////////////////////////////////
 
 include "../include/config1.inc.php";
@@ -48,7 +48,7 @@ print '<html>
   </frameset>
   <noframes>
   <body>
-  <p>Ihr Browser unterstützt leider keine Frames...</p>
+  <p>Ihr Browser unterstÃ¼tzt leider keine Frames...</p>
   </body>
   </noframes>
 </frameset>
@@ -103,7 +103,7 @@ print '<html>
       <td bgcolor="#FFFFFF" width="370">'.$onlinestat.'</td>
     </tr>
     <tr>
-      <td bgcolor="#FFFFFF" width="230">Einträge</td>
+      <td bgcolor="#FFFFFF" width="230">EintrÃ¤ge</td>
       <td bgcolor="#FFFFFF" width="370">'.$insgesamt.' (<a href="'.$PHP_SELF.'?action=zipdownload&nemo='.$nemo.'&pwd='.$pwd.'">downloaden</a>, '.$eintragsize.' KB)</td>
     </tr>
     <tr>
@@ -114,7 +114,7 @@ print '<html>
       <td bgcolor="#D6DFF7" width="100%" colspan="2" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Mitarbeiter</font></b></td>
     </tr>
     <tr>
-      <td bgcolor="#FFFFFF" width="230"><p align="left">Daniel Köhler (unze)</td>
+      <td bgcolor="#FFFFFF" width="230"><p align="left">Daniel KÃ¶hler (unze)</td>
       <td bgcolor="#FFFFFF" width="370"><p align="left">Projektleiter, Hauptentwickler</td>
     </tr>
     <tr>
@@ -176,12 +176,12 @@ print '<html>
         <area href="'.$PHP_SELF.'?action=allgemein&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 63, 154, 86" title="Allgemeine Einstellungen">
         <area href="'.$PHP_SELF.'?action=darstellung&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 85, 140, 106" title="Darstellungsoptionen">
         <area href="'.$PHP_SELF.'?action=sicherheit&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 109, 130, 131" title="Sicherheitsoptionen">
-        <area href="'.$PHP_SELF.'?action=eintraege&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="8, 132, 131, 151" title="Einträge bearbeiten">
+        <area href="'.$PHP_SELF.'?action=eintraege&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="8, 132, 131, 151" title="EintrÃ¤ge bearbeiten">
         <area href="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 152, 123, 174" title="Smilies bearbeiten">
         <area href="'.$PHP_SELF.'?action=mailvorlagen&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 174, 155, 197" title="Mailtemplates bearbeiten">
-        <area href="'.$PHP_SELF.'?action=status&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="8, 200, 119, 220" title="Gästebuchstatus">
-        <area href="'.$PHP_SELF.'?action=dfcookie&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 222, 139, 243" title="Flood-Cookie löschen">
-        <area href="'.$PHP_SELF.'?action=passwort&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="6, 244, 142, 266" title="Benutzerdaten ändern">
+        <area href="'.$PHP_SELF.'?action=status&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="8, 200, 119, 220" title="GÃ¤stebuchstatus">
+        <area href="'.$PHP_SELF.'?action=dfcookie&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="7, 222, 139, 243" title="Flood-Cookie lÃ¶schen">
+        <area href="'.$PHP_SELF.'?action=passwort&nemo='.$nemo.'&pwd='.$pwd.'" shape="rect" coords="6, 244, 142, 266" title="Benutzerdaten Ã¤ndern">
         <area href="index.php?logged=2" shape="rect" coords="7, 266, 91, 288" title="Ausloggen" target="_top"></map>
         <img border="0" src="images/menu.png" usemap="#adminnav" width="160" height="300">
 </center>
@@ -200,7 +200,7 @@ print '<html>
   <table border="0" cellpadding="2" cellspacing="1" width="100%" height="100%">
     <tr>
       <td width="50%" valign="top" align="left"><div align="left" style="font-size: 11px; color:; #ffffff">&nbsp;</div></td>
-      <td width="50%" valign="top" align="right"><div align="right" style="font-size: 11px; color: #ffffff;">Version '.$version.'<br><a href="../gb.php" target="_blank" style="font-size: 11px; color: #ffffff;">Zum Gästebuch</a></div></td>
+      <td width="50%" valign="top" align="right"><div align="right" style="font-size: 11px; color: #ffffff;">Version '.$version.'<br><a href="../gb.php" target="_blank" style="font-size: 11px; color: #ffffff;">Zum GÃ¤stebuch</a></div></td>
     </tr>
     <tr>
       <td width="50%" valign="bottom" align="left"><div align="left" style="font-size: 11px;">&nbsp;</div></td>
@@ -215,12 +215,12 @@ print '<html>
 if($action == "eintraege"){
 print '<html>
 <head>
-<title>Einträge bearbeiten</title>
+<title>EintrÃ¤ge bearbeiten</title>
 <link rel="stylesheet" href="style.css">
 <script language="JavaScript" src="popuphilfe.js"></script>
 </head>
 <body>
-<center><font size="5">Einträge bearbeiten</font><br><br><br></center>
+<center><font size="5">EintrÃ¤ge bearbeiten</font><br><br><br></center>
 <div align="center">
   <center>
   <table border="0" cellpadding="2" cellspacing="1" width="600" bgcolor="#46A0E3">
@@ -265,7 +265,7 @@ print '<html>
         <td width="370" bgcolor="#FFFFFF" colspan="2"><font size="1">Unterbrechen Sie auf keinen Fall die Aktion, nachdem Sie auf "starten" geklickt haben. Sichern / Downloaden Sie vorher die eintraege.dat!</font></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  starten  "></td>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  starten  "></td>
       </tr>
     </table>
   </center>
@@ -316,7 +316,7 @@ print '
 </td>
       </tr>
       <tr>
-        <td colspan="3" bgcolor="#FFFFFF" valign="middle" align="center"><a href="'.$PHP_SELF.'?action=eintraege&nemo='.$nemo.'&pwd='.$pwd.'">&lt;-&nbsp;zurück</a></td>
+        <td colspan="3" bgcolor="#FFFFFF" valign="middle" align="center"><a href="'.$PHP_SELF.'?action=eintraege&nemo='.$nemo.'&pwd='.$pwd.'">&lt;-&nbsp;zurÃ¼ck</a></td>
       </tr>
     </table>
   <br>
@@ -344,7 +344,7 @@ print '<html>
         <td colspan="3" bgcolor="#D6DFF7" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Allgemeine Einstellungen</font></b></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Name des Gästebuchs</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>Name des GÃ¤stebuchs</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="gbnam" size="30" value="'.$titel.'"></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(guestbookname)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -369,7 +369,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(timezone)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Begrüßungstext</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>BegrÃ¼ÃŸungstext</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="begrues" size="40" value="'.$begruesungstxt.'">&nbsp;<input type="checkbox" name="begruescente" value="center" class="check"'.$htc5.'><font size="1">center?</font></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(welcometext)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -384,7 +384,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(thank)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>E-Mail für Benachrichtigung</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>E-Mail fÃ¼r Benachrichtigung</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="mail" size="30" value="'.$email.'"></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(notimail)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -409,7 +409,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(title2)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Einträge pro Seite</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>EintrÃ¤ge pro Seite</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="eintraps" size="5" value="'.$eintragps.'">
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(maxentrys)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -429,7 +429,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(indvbody)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
       </tr>
     </table>
   </center>
@@ -492,7 +492,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(replaceword)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td colspan="3" bgcolor="#D6DFF7" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Maximale Zeichenlängen</font></b></td></tr>
+        <td colspan="3" bgcolor="#D6DFF7" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Maximale ZeichenlÃ¤ngen</font></b></td></tr>
       <tr>
         <td width="230" bgcolor="#FFFFFF"><b>Kommentar</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="kolength" value="'.$komlength.'" maxlength="7" size="30"></td>
@@ -519,12 +519,12 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(icquine)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Wortlänge</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>WortlÃ¤nge</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="worlength" value="'.$wordlength.'" size="30"></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(worde)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
       </tr>
     </table>
   </center>
@@ -538,21 +538,21 @@ if($action == "dfcookie"){
 setcookie ("ungb3");
 print '<html>
 <head>
-<title>Flood-Cookie gelöscht</title>
+<title>Flood-Cookie gelÃ¶scht</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<center><font size="5">Flood-Cookie löschen</font><br><br><br></center>
+<center><font size="5">Flood-Cookie lÃ¶schen</font><br><br><br></center>
 <div align="center">
   <center>
     <table border="0" cellpadding="3" cellspacing="1" width="600" bgcolor="#46A0E3">
       <tr>
-        <td bgcolor="#D6DFF7" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Flood-Cookie wurde gelöscht</font></b></td></tr>
+        <td bgcolor="#D6DFF7" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Flood-Cookie wurde gelÃ¶scht</font></b></td></tr>
       <tr>
-        <td width="100%" bgcolor="#FFFFFF" align="center"><br>Ihr Flood-Cookie wurde erfolgreich gelöscht, Sie können nun wieder einen Eintrag erstellen!<br><br></td>
+        <td width="100%" bgcolor="#FFFFFF" align="center"><br>Ihr Flood-Cookie wurde erfolgreich gelÃ¶scht, Sie kÃ¶nnen nun wieder einen Eintrag erstellen!<br><br></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zur Administration</a></td>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zur Administration</a></td>
       </tr>
     </center>
   </table>
@@ -587,7 +587,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(txtcit)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Textfarbe außerhalb Tabellen</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>Textfarbe auÃŸerhalb Tabellen</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="txtout" size="7" value="'.$textout.'" onChange="newcolor(this.form.colortextout,this.value)">&nbsp;&nbsp;<input type="button" name="colortextout" value="       " style="background-color: '.$textout.';" disabled></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(txtcat)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -622,12 +622,12 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(fontface)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Textgröße Überschriften</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>TextgrÃ¶ÃŸe Ãœberschriften</b></td>
         <td bgcolor="#FFFFFF" width="350">'.$hatch7.'</td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(fontsizeu)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Textgröße</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>TextgrÃ¶ÃŸe</b></td>
         <td bgcolor="#FFFFFF" width="350">'.$hatch8.'</td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(fontsize)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -652,7 +652,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(cssfcolor)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>CSS Schriftgröße</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>CSS SchriftgrÃ¶ÃŸe</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="cssgro" size="7" value="'.$cssgrose.'"></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(cssfsize)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -690,7 +690,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(cellbgcolor)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td width="230" bgcolor="#FFFFFF"><b>Überschrifts-Hintergrundfarbe</b></td>
+        <td width="230" bgcolor="#FFFFFF"><b>Ãœberschrifts-Hintergrundfarbe</b></td>
         <td bgcolor="#FFFFFF" width="350"><input type="text" name="zmube" size="7" value="'.$zmuber.'" onChange="newcolor(this.form.colorzmuber,this.value)">&nbsp;&nbsp;<input type="button" name="colorzmuber" value="       " style="background-color: '.$zmuber.';" disabled></td>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(cellucolor)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
@@ -723,7 +723,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(gzip)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
       </tr>
     </center>
   </table>
@@ -736,19 +736,19 @@ print "</body>\n</html>";
 if($action == "status"){
 print '<html>
 <head>
-<title>Gästebuchstatus bearbeiten</title>
+<title>GÃ¤stebuchstatus bearbeiten</title>
 <link rel="stylesheet" href="style.css">
 <script language="JavaScript" src="popuphilfe.js"></script>
 </head>
 <body>
-<center><font size="5">Gästebuchstatus bearbeiten</font><br><br><br></center>
+<center><font size="5">GÃ¤stebuchstatus bearbeiten</font><br><br><br></center>
 <form action="'.$PHP_SELF.'?action=speichern4&pwd='.$pass.'&nemo='.$nemo.'" method="post">
 <input type="hidden" value="'.$pass.'" name="pw">
 <div align="center">
   <center>
     <table border="0" cellpadding="3" cellspacing="1" width="600" bgcolor="#46A0E3">
       <tr>
-        <td colspan="3" bgcolor="#D6DFF7" valign="top" align="left"><b><font color="#215DC6">&#187;&nbsp;Gästebuchstatus bearbeiten</font></b></td>
+        <td colspan="3" bgcolor="#D6DFF7" valign="top" align="left"><b><font color="#215DC6">&#187;&nbsp;GÃ¤stebuchstatus bearbeiten</font></b></td>
       </tr>
       <tr>
         <td width="230" bgcolor="#FFFFFF"><b>Status</b></td>
@@ -761,7 +761,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(offlinetext)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
       </tr>
     </table>
   </center>
@@ -774,12 +774,12 @@ print "</body>\n</html>";
 if($action == "passwort"){
 print '<html>
 <head>
-<title>Benutzerdaten ändern</title>
+<title>Benutzerdaten Ã¤ndern</title>
 <link rel="stylesheet" href="style.css">
 <script language="JavaScript" src="popuphilfe.js"></script>
 </head>
 <body>
-<center><font size="5">Benutzerdaten ändern</font><br><br><br></center>
+<center><font size="5">Benutzerdaten Ã¤ndern</font><br><br><br></center>
 <form action="'.$PHP_SELF.'?action=newuserdats&pwd='.$pass.'&nemo='.$nemo.'" method="post">
 <input type="hidden" value="'.$pass.'" name="pw">
 <div align="center">
@@ -804,7 +804,7 @@ print '<html>
         <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(password2)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
       </tr>
       <tr>
-        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td></tr>
+        <td bgcolor="#FFFFFF" colspan="3" valign="middle" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td></tr>
      </table>
   </center>
 </div>
@@ -827,7 +827,7 @@ print '<html>
   <center>
     <table border="0" cellpadding="2" cellspacing="1" width="600" bgcolor="#46A0E3">
       <tr>
-        <td bgcolor="#D6DFF7" width="100%" colspan="2" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Vorlage auswählen</font></b></td>
+        <td bgcolor="#D6DFF7" width="100%" colspan="2" valign="middle" align="left"><b><font color="#215DC6">&#187;&nbsp;Vorlage auswÃ¤hlen</font></b></td>
       </tr>
       <tr>
         <td bgcolor="#FFFFFF" width="230">Vorlage</td>
@@ -903,9 +903,9 @@ print'
 <div align="left">
   <table border="0" cellpadding="2" cellspacing="1">
     <tr>
-      <td><input type="submit" value="löschen" name="type"></td>
+      <td><input type="submit" value="lÃ¶schen" name="type"></td>
       <td><input type="submit" value="bearbeiten" name="type"></td>
-      <td><input type="submit" value="Neuen Smilie hinzufügen" name="type"></td>
+      <td><input type="submit" value="Neuen Smilie hinzufÃ¼gen" name="type"></td>
     </tr>
   </table>
 </div>
@@ -923,26 +923,26 @@ print "</body>\n</html>";
 if($action == "editsmil"){
 
         if($smilnummer != ""){
-    if($type == "löschen"){
+    if($type == "lÃ¶schen"){
 print '<html>
 <head>
-<title>Smilie löschen</title>
+<title>Smilie lÃ¶schen</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p align="center"><font size="5">Smilie löschen</font></p>
+<p align="center"><font size="5">Smilie lÃ¶schen</font></p>
 <p align="center">&nbsp;</p>
 <div align="center">
   <center>
   <table border="0" cellpadding="2" cellspacing="1" width="600" bgcolor="#46A0E3">
     <tr>
-      <td bgcolor="#D6DFF7" width="100%" align="left"><p align="left"><b><font color="#215DC6">&#187;&nbsp;Smilie #'.$smilnummer.' löschen</font></b></td>
+      <td bgcolor="#D6DFF7" width="100%" align="left"><p align="left"><b><font color="#215DC6">&#187;&nbsp;Smilie #'.$smilnummer.' lÃ¶schen</font></b></td>
     </tr>
     <tr>
       <td bgcolor="#FFFFFF" width="100%">
 <div align="center">
   <center>
-<br>Soll der Smilie #'.$smilnummer.' wirklich gelöscht werden?<br>
+<br>Soll der Smilie #'.$smilnummer.' wirklich gelÃ¶scht werden?<br>
   <table border="0" cellpadding="2" cellspacing="1">
     <tr>
       <td><form action="'.$PHP_SELF.'?action=delsmil&pwd='.$pwd.'&nemo='.$nemo.'" method="post"><input type="hidden" name="smilnummer" value="'.$smilnummer.'"><input type="submit" value="     Ja     "></form></td>
@@ -1013,7 +1013,7 @@ print '<html>
       <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(smilwich)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
     </tr>
     <tr>
-      <td bgcolor="#FFFFFF" colspan="3" width="100%" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+      <td bgcolor="#FFFFFF" colspan="3" width="100%" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
     </tr>
   </table>
   </center>
@@ -1023,7 +1023,7 @@ cpyr();
 print "</body>\n</html>";
     }
          }
-         if($type == "Neuen Smilie hinzufügen"){ $smilnummer = "0"; }
+         if($type == "Neuen Smilie hinzufÃ¼gen"){ $smilnummer = "0"; }
          if($smilnummer == ""){
              print '<html>
 <head>
@@ -1033,27 +1033,27 @@ print "</body>\n</html>";
 <body>
 <p align="center"><font size="5">Fehler</font></p>
 <p align="center">&nbsp;</p>
-<p align="center">Sie müssen einen Smilie auswählen!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.</p>';
+<p align="center">Sie mÃ¼ssen einen Smilie auswÃ¤hlen!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.</p>';
 cpyr();
 print "</body>\n</html>";
          }
 }
-         if($type == "Neuen Smilie hinzufügen"){
+         if($type == "Neuen Smilie hinzufÃ¼gen"){
 print '<html>
 <head>
-<title>Smilie hinzufügen</title>
+<title>Smilie hinzufÃ¼gen</title>
 <link rel="stylesheet" href="style.css">
 <script language="JavaScript" src="popuphilfe.js"></script>
 </head>
 <body>
-<p align="center"><font size="5">Smilie hinzufügen</font></p>
+<p align="center"><font size="5">Smilie hinzufÃ¼gen</font></p>
 <p align="center">&nbsp;</p>
 <form action="'.$PHP_SELF.'?action=savenewsmile&pwd='.$pwd.'&nemo='.$nemo.'" method="post">
 <div align="center">
   <center>
   <table border="0" cellpadding="2" cellspacing="1" width="600" bgcolor="#46A0E3">
     <tr>
-      <td bgcolor="#D6DFF7" colspan="3" width="100%" align="left"><p align="left"><b><font color="#215DC6">&#187;&nbsp;Neuen Smilie hinzufügen</font></b></td>
+      <td bgcolor="#D6DFF7" colspan="3" width="100%" align="left"><p align="left"><b><font color="#215DC6">&#187;&nbsp;Neuen Smilie hinzufÃ¼gen</font></b></td>
     </tr>
     <tr>
       <td bgcolor="#FFFFFF" width="230">Bildname</td>
@@ -1076,7 +1076,7 @@ print '<html>
       <td bgcolor="#FFFFFF" width="20" align="center"><a href="javascript:hilfe(smilwich)"><img src="images/hilfe.gif" height="13" width="13" border="0" alt="Hilfe"></a></td>
     </tr>
     <tr>
-      <td bgcolor="#FFFFFF" colspan="3" width="100%" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+      <td bgcolor="#FFFFFF" colspan="3" width="100%" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
     </tr>
   </table>
   </center>
@@ -1102,7 +1102,7 @@ $filer = fopen("../include/smilies.inc.php","wb+");
 fputs($filer,$sdatas);
 fclose($filer);
 print '<head>
-<title>Der Smilie wurde erfolgreich gelöscht! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.</title>
+<title>Der Smilie wurde erfolgreich gelÃ¶scht! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.</title>
 <meta http-equiv="Refresh" content="2; URL='.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'">
 <link rel="stylesheet" href="style.css">
 <style>
@@ -1110,8 +1110,8 @@ print '<head>
 </style>
 </head>
 <body>
-<FONT SIZE="2"><B>Der Smilie wurde erfolgreich hinzugefügt! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.</B></font>
-<p><A HREF="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'"><B><FONT SIZE="1">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</FONT></B></A>
+<FONT SIZE="2"><B>Der Smilie wurde erfolgreich hinzugefÃ¼gt! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.</B></font>
+<p><A HREF="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'"><B><FONT SIZE="1">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</FONT></B></A>
 <br><br>
 </body>';
 }
@@ -1127,7 +1127,7 @@ if ($bfile[0] == $smilnummer)
 {
 $delete = "1";
 print '<head>
-<title>Der Smilie wurde erfolgreich gelöscht! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.</title>
+<title>Der Smilie wurde erfolgreich gelÃ¶scht! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.</title>
 <meta http-equiv="Refresh" content="2; URL='.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'">
 <link rel="stylesheet" href="style.css">
 <style>
@@ -1135,8 +1135,8 @@ print '<head>
 </style>
 </head>
 <body>
-<FONT SIZE="2"><B>Der Smilie wurde erfolgreich gelöscht! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.</B></font>
-<p><A HREF="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'"><B><FONT SIZE="1">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</FONT></B></A>
+<FONT SIZE="2"><B>Der Smilie wurde erfolgreich gelÃ¶scht! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.</B></font>
+<p><A HREF="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'"><B><FONT SIZE="1">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</FONT></B></A>
 <br><br>
 </body>';
 }
@@ -1167,7 +1167,7 @@ if ($bfile[0] == $smilnummer)
 {
 $delete = "1";
 print '<head>
-<title>Der Smilie wurde erfolgreich gelöscht! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.</title>
+<title>Der Smilie wurde erfolgreich gelÃ¶scht! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.</title>
 <meta http-equiv="Refresh" content="2; URL='.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'">
 <link rel="stylesheet" href="style.css">
 <style>
@@ -1175,8 +1175,8 @@ print '<head>
 </style>
 </head>
 <body>
-<FONT SIZE="2"><B>Der Smilie wurde erfolgreich bearbeitet! Wir leiten Sie jetzt zur Übersicht weiter, bitte warten Sie zwei Sekunden.</B></font>
-<p><A HREF="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'"><B><FONT SIZE="1">Klicken Sie hier, wenn Sie nicht länger warten möchten oder Ihr Browser keine automatische Weiterleitung unterstützt.</FONT></B></A>
+<FONT SIZE="2"><B>Der Smilie wurde erfolgreich bearbeitet! Wir leiten Sie jetzt zur Ãœbersicht weiter, bitte warten Sie zwei Sekunden.</B></font>
+<p><A HREF="'.$PHP_SELF.'?action=smilies&nemo='.$nemo.'&pwd='.$pwd.'"><B><FONT SIZE="1">Klicken Sie hier, wenn Sie nicht lÃ¤nger warten mÃ¶chten oder Ihr Browser keine automatische Weiterleitung unterstÃ¼tzt.</FONT></B></A>
 <br><br>
 </body>';
 }
@@ -1322,11 +1322,11 @@ document.mailtmplform.newtext.focus();
         <p align="center"><textarea rows="16" name="newtext" cols="112" wrap="off">';
 if($tmpl == "dankm"){ print ''.$dankm.''; }
 if($tmpl == "benachm"){ print ''.$benachm.''; }
-print '</textarea><br><font size="1">Achtung: Hier funktionieren keine GB-Codes! HTML-Code kann aber ohne Einschränkungen genutzt werden.</font></td>
+print '</textarea><br><font size="1">Achtung: Hier funktionieren keine GB-Codes! HTML-Code kann aber ohne EinschrÃ¤nkungen genutzt werden.</font></td>
     </tr>
   </center>
     <tr>
-      <td bgcolor="#FFFFFF" align="center"><input type="reset" value="zurücksetzen"> <input type="submit" value="  speichern  "></td>
+      <td bgcolor="#FFFFFF" align="center"><input type="reset" value="zurÃ¼cksetzen"> <input type="submit" value="  speichern  "></td>
     </tr>
   </table>
 </div>
@@ -1367,7 +1367,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Template gespeichert!<br><br><a href="'.$PHP_SELF.'?action=tpledit&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zu den Mailtemplates</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zur Administration</a><br><a href="../gb.php" target="_top">Zum Gästebuch</a><br></div>
+<div>Template gespeichert!<br><br><a href="'.$PHP_SELF.'?action=tpledit&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zu den Mailtemplates</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zur Administration</a><br><a href="../gb.php" target="_top">Zum GÃ¤stebuch</a><br></div>
 </body>';
 }
 
@@ -1386,7 +1386,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Die Daten wurden gespeichert!<br>Falls Sie Ihre Benutzerdaten geändert haben,<br>loggen Sie sich jetzt bitte aus und wieder neu ein!<br><br><a href="'.$PHP_SELF.'?action=passwort&pwd='.md5($passwd1).'&nemo='.md5($nemfiz).'">Zurück zu den Benutzerdaten</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.md5($passwd1).'&nemo='.md5($nemfiz).'">Zurück zur Administration</a><br><a href="../gb.php" target="_top">Zum Gästebuch</a><br></div>
+<div>Die Daten wurden gespeichert!<br>Falls Sie Ihre Benutzerdaten geÃ¤ndert haben,<br>loggen Sie sich jetzt bitte aus und wieder neu ein!<br><br><a href="'.$PHP_SELF.'?action=passwort&pwd='.md5($passwd1).'&nemo='.md5($nemfiz).'">ZurÃ¼ck zu den Benutzerdaten</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.md5($passwd1).'&nemo='.md5($nemfiz).'">ZurÃ¼ck zur Administration</a><br><a href="../gb.php" target="_top">Zum GÃ¤stebuch</a><br></div>
 </body>';
         }
         if($passwd1 != "$passwd2"){
@@ -1395,7 +1395,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Die beiden Passwörter stimmen nicht überein!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurückzugelangen.<br></div>
+<div>Die beiden PasswÃ¶rter stimmen nicht Ã¼berein!<br>Klicken Sie <a href="javascript:history.go(-1)" target="_self">hier</a>, um zur vorherigen Seite zurÃ¼ckzugelangen.<br></div>
 </body>';
         }
 }
@@ -1442,7 +1442,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=allgemein&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zu den allgemeinen Einstellungen</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zur Administration</a><br><a href="../gb.php" target="_top">Zum Gästebuch</a><br></div>
+<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=allgemein&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zu den allgemeinen Einstellungen</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zur Administration</a><br><a href="../gb.php" target="_top">Zum GÃ¤stebuch</a><br></div>
 </body>';
 }
 
@@ -1508,7 +1508,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=darstellung&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zu den Darstellungsoptionen</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zur Administration</a><br><a href="../gb.php" target="_top">Zum Gästebuch</a><br></div>
+<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=darstellung&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zu den Darstellungsoptionen</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zur Administration</a><br><a href="../gb.php" target="_top">Zum GÃ¤stebuch</a><br></div>
 </body>';
 }
 
@@ -1537,7 +1537,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=sicherheit&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zu den Sicherheitsoptionen</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zur Administration</a><br><a href="../gb.php" target="_top">Zum Gästebuch</a><br></div>
+<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=sicherheit&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zu den Sicherheitsoptionen</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zur Administration</a><br><a href="../gb.php" target="_top">Zum GÃ¤stebuch</a><br></div>
 </body>';
 }
 
@@ -1555,7 +1555,7 @@ print '<head>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=status&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zum Gästebuchstatus</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">Zurück zur Administration</a><br><a href="../gb.php" target="_top">Zum Gästebuch</a><br></div>
+<div>Die Daten wurden gespeichert!<br><br><a href="'.$PHP_SELF.'?action=status&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zum GÃ¤stebuchstatus</a><br><a href="'.$PHP_SELF.'?action=main&pwd='.$pwd.'&nemo='.$nemo.'">ZurÃ¼ck zur Administration</a><br><a href="../gb.php" target="_top">Zum GÃ¤stebuch</a><br></div>
 </body>';
 }
         }

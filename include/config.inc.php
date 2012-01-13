@@ -2,7 +2,7 @@
 // Revision: 1.2
 // Name: config.inc.php
 
-/* Diese Datei darf ohne Lizenz nicht ver‰ndert werden! */
+/* Diese Datei darf ohne Lizenz nicht ver√§ndert werden! */
 
 extract($_REQUEST,EXTR_SKIP);
 $version="3.2.0 build 10";
