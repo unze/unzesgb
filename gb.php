@@ -1,5 +1,5 @@
 <?php
-// Revision: 1.10
+// Revision: 1.11
 // Name: gb.php
 
 ///////////////////////////////////////////////////////////
@@ -30,6 +30,7 @@ $linie = file("./include/eintraege.dat");
 $insgesamt = count($linie);
 $wds = "$words";
 $npn = 6;
+$css = $css . "\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">";
 if(isset($HTTP_COOKIE_VARS["ungb3"])){ $setetc = $HTTP_COOKIE_VARS["ungb3"]; }
 if(!isset($HTTP_COOKIE_VARS["ungb3"])){ $setetc = "nein"; }
 $breite12 = ("$tbreite"-"$breitesmn");
