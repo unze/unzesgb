@@ -226,7 +226,7 @@ $cpy = str_replace("[h]", "powered by ", $cpy);
 $cpy = str_replace("[i]", "<a href='http://www.unze.net/' target='_blank'>", $cpy);
 $cpy = str_replace("[j]", "<font size='1'>", $cpy);
 $cpy = str_replace("[k]", "unzes gb", $cpy);
-$cpy = str_replace("[l]", "&copy; 2001 - 2009 by Daniel Köhler", $cpy);
+$cpy = str_replace("[l]", "&copy; 2001 - 2012 by Daniel Köhler", $cpy);
 }
 
 function parsekommentar(){
