@@ -1,5 +1,6 @@
 3.2.0 build 11
-        +
+        + Bugfix: Bei manchen PHP Konfigurationen den Sicherheitscode repariert
+        + Bugfix: Benachrichtigungs E-Mail hat nun den richtigen Absender
 
 3.2.0 build 10
 	+ Bugfix: E-Mail Versand unter Windows und Linux verbessert

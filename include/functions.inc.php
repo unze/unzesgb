@@ -135,7 +135,7 @@ $a0001 = "**************************************************";
 $a0002 = "***";
 $a0003 = "http://www.unze.net/";
 $a0004 = "created by unzes gb ";
-$a0005 = "Copyright (c) 2001 - 2009 by Daniel Köhler";
+$a0005 = "Copyright (c) 2001 - 2012 by Daniel Köhler";
 $a0006 = "<!--";
 $a0007 = "//-->";
 

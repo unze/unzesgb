@@ -1,5 +1,5 @@
 <?php
-// Revision: 1.0
+// Revision: 1.1
 // Name: statistik.php
 
 ///////////////////////////////////////////////////////////
@@ -12,7 +12,7 @@
 // Noch mehr Scripte:
 // http://www.unze.net/
 ///////////////////////////////////////////////////////////
-// Copyright (c) 2001-2005 by
+// Copyright (c) 2001-2012 by
 // Daniel Köhler
 ///////////////////////////////////////////////////////////
 
@@ -39,11 +39,5 @@ $date = "$mtext[2]";
 $date = str_replace("erstellt am","","$date");
   echo "$date<br>\n";
 }
-
-
-
-
-
-
 
 ?>

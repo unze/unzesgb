@@ -30,4 +30,4 @@ Besonderer Dank an F-Zero für die Seitenaufteilung
 URL: http://www.unze.net/
 E-Mail: unze@unze.net
 
-©2001 - 2005 by Daniel Köhler (unze) und F-Zero
+©2001 - 2012 by Daniel Köhler (unze) und F-Zero

@@ -1,5 +1,5 @@
 <?php
-// Revision: 1.9
+// Revision: 1.10
 // Name: gb.php
 
 ///////////////////////////////////////////////////////////
@@ -12,7 +12,7 @@
 // Noch mehr Scripte:
 // http://www.unze.net/
 ///////////////////////////////////////////////////////////
-// Copyright (c) 2001-2009 by
+// Copyright (c) 2001-2012 by
 // Daniel Köhler
 ///////////////////////////////////////////////////////////
 
@@ -556,7 +556,7 @@ $mailheader1 .= ("Content-Transfer-Encoding: 7bit" . "\n");
 if( isset( $_SERVER["WINDIR"] ) ) {
 mail($email, $mailbetreff, $benachm, $mailheader1);
 } else {
-mail($email, $mailbetreff, $benachm, $mailheader1, "-f $mail");
+mail($email, $mailbetreff, $benachm, $mailheader1, "-f $email");
 }
 
 }
